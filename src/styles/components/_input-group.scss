@@ -1,0 +1,14 @@
+.input-group {
+  //for smaller screen
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $l-size;
+
+  //for screen larger than $desktop-breakpoint
+  @media (min-width: $desktop-breakpoint) {
+  }
+}
+
+.input-group__item {
+  margin-right: $s-size;
+}
